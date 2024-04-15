@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto";
+  scroll-behavior: smooth;
 }
 
 body {
@@ -372,7 +373,7 @@ a {
     font-weight: 300;
     width: 70%;
     margin-bottom: 20px;
-
+    padding: 10px 0 10px 0;
   }
 
 }
