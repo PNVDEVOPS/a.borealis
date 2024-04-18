@@ -307,14 +307,15 @@
           </p>
 
         </div>
-        <div class="footerlogo">
-          @Aurora Borealis
-        </div>
+  
         <div class="footerlinks">
           <div id="openModalBtn" class="footerlink">Заполнить бриф</div>
           <div class="footerlink">Позвонить</div>
           <div class="footerlink">WhatsApp</div>
           <div class="footerlink">Telegram</div>
+          <div class="footerlink">
+            @Aurora Borealis
+          </div>
         </div>
 
       </div>
@@ -327,7 +328,7 @@
   <div id="feedbackModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
-      <h2>Форма обратной связи</h2>
+      <h2>Брифинг форма</h2>
       <form id="feedbackForm">
         <label for="name">Имя:</label>
         <input type="text" id="name" name="name" required><br><br>
@@ -335,9 +336,9 @@
         <input type="email" id="email" name="email" required><br><br>
         <label for="phone">Номер телефона:</label>
         <input type="tel" id="phone" name="phone" required><br><br>
-        <label for="file">Прикрепить файл:</label>
-<input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .txt"><br><br>
-        <label for="message">Сообщение:</label><br>
+        <!-- <label for="file">Прикрепить файл:</label>
+<input type="file" id="file" name="file" accept=".pdf, .doc, .docx, .txt"><br><br> -->
+        <label for="message">Задача:</label><br>
         <textarea id="message" name="message" rows="4" required></textarea><br><br>
         <button type="submit">Отправить</button>
       </form>
