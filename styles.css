@@ -96,7 +96,7 @@ a {
   /* justify-content: center; */
   /* align-items: center; */
   display: flex;
-  background-image:  url(./images/Wrapper.png);
+  background-image:  url(./images/wrapper.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -515,7 +515,7 @@ a {
 }
 
 .aboutimg {
-  background-image:  (./images/anfas.jpg);
+  background-image:  url(./images/anfas.jpg);
   background-size: cover;
   background-position: center;
   border-radius: 20px;
@@ -2400,6 +2400,10 @@ v
 
 @media only screen and (max-width: 490px)   {
 
+  .accord {
+    max-width: 99vw;
+  }
+
   
   .aboutwrapper 
   {
@@ -2411,8 +2415,15 @@ v
     max-width: 99vw;
     min-width: 99vw;
     margin: 0 0 0 0;
-   
+    padding: 20px 0 20px;
+
+    div {
+        margin-top: 10px;
+
+    }
   }
+
+
 
 
 
@@ -2449,7 +2460,6 @@ v
     min-width: 200px;
     max-height: 200px;
     min-height: 200px;
-
   }
   .Button {
 
@@ -2880,7 +2890,7 @@ v
     margin-top: 0;
     grid-column: auto;
     padding: 0 5px 0 5px;
-    /* width: 90%; */
+    width: 85vw;
     max-height: 300px;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
@@ -3134,6 +3144,12 @@ v
       
   }
 
+  .Title, .Subtitle {
+    width: 85%;
+  }
+
+
+
   .Button {
 
     margin-bottom: 0px;
@@ -3157,6 +3173,7 @@ v
     padding: 0 5px 0 5px;
     /* width: 90%; */
     max-height: 300px;
+ width: 85vw;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
   }
@@ -3408,6 +3425,8 @@ v
     padding: 0px 0 0px 0;
   }
 
+ 
+
   .ButtonRoot {
     height: 80px;
     max-width: 82vw;
@@ -3419,7 +3438,7 @@ v
     margin-top: 0;
     grid-column: auto;
     padding: 0 5px 0 5px;
-    /* width: 90%; */
+    width: 85vw;
     max-height: 300px;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
