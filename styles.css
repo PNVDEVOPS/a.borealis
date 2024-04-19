@@ -96,7 +96,7 @@ a {
   /* justify-content: center; */
   /* align-items: center; */
   display: flex;
-  background-image:  url(../images/Wrapper.png);
+  background-image:  url(./images/wrapper.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@ a {
   justify-content: center;
   align-items: center;
   display: flex;
-  background-image:  url(../images/AboutWrapper.png);
+  background-image:  url(./images/AboutWrapper.png);
   background-size: cover;
   background-position: center;
   border-radius: 50px;
@@ -619,7 +619,7 @@ a {
   width: 50vw;
   height: 100%;
   grid-area: A;
-  background-image:url(../images/Nam.ru.png);
+  background-image:url(./images/Nam.ru.png);
   background-position: center;
   background-size: 140%;
   background-repeat: no-repeat;
@@ -632,7 +632,7 @@ a {
   height: auto;
   width: 50vw;
   grid-area: B;
-  background-image:url(../images/DM.png);
+  background-image:url(./images/DM.png);
   background-position: center;
    background-size: 100%;
   background-repeat: no-repeat;
@@ -647,7 +647,7 @@ a {
   height: auto;
   width: 50vw;
   grid-area: C;
-  background-image:url(../images/img.png);
+  background-image:url(./images/img.png);
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -822,7 +822,7 @@ a {
 }
 
 .blurnoise {
-  background-image:  url(../images/Noise.png);
+  background-image:  url(./images/Noise.png);
   background-size: contain;
   background-position: center;
   width: 500px;
@@ -835,7 +835,7 @@ a {
 }
 
 .land {
-  background-image:url(../images/Landing.png);
+  background-image:url(./images/Landing.png);
   right: 20px;
   top: 20px;
   background-position: center;
@@ -848,7 +848,7 @@ a {
 }
 
 .pages {
-  background-image:url(../images/Pages.png);
+  background-image:url(./images/Pages.png);
   right: 20px;
   top: 20px;
   background-position: center;
@@ -861,7 +861,7 @@ a {
 }
 
 .store {
-  background-image:url(../images/Store.png);
+  background-image:url(./images/Store.png);
   right: 20px;
   top: 20px;
   background-position: center;
@@ -1053,7 +1053,7 @@ a {
   /* justify-content: center; */
   /* align-items: center; */
   display: flex;
-  background-image:  url(../images/Footer.png);
+  background-image:  url(./images/Footer.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
