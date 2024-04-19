@@ -84,7 +84,7 @@ a {
   justify-content: space-between;
   /* justify-content: center;
   align-items: center; */
-  width: 70vw;
+  width: 72vw;
   max-height: 900px;
   top: 0;
   position: relative;
@@ -96,7 +96,7 @@ a {
   /* justify-content: center; */
   /* align-items: center; */
   display: flex;
-  background-image:  url(./images/wrapper.png);
+  background-image:  url(./images/Wrapper.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -329,7 +329,7 @@ a {
 }
 
 .Button2 {
-  margin-top: 300px;
+  margin-top: 280px;
   width: 500px;
   height: fit-content;
   float:left;
@@ -488,20 +488,20 @@ a {
   color: white;
   font-size: 20px;
   display: flex;
-  max-width: 80vw;
-  height: 900px;
+  max-width: 72vw;
+  height: 700px;
 
 }
 
 .text {
-
+  width: 60%;
   color: white;
   font-size: 24px;
   font-family: Roboto;
   font-weight: 300;
   letter-spacing: 0.64px;
   word-wrap: break-word;
-  padding: 10%;
+  padding: 0 10% 0 10%;
 }
 
 .h2 {
@@ -512,6 +512,15 @@ a {
   font-weight: 300;
   font-family: Roboto;
   position: absolute;
+}
+
+.aboutimg {
+  background-image:  (./images/anfas.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  min-height: 300px;
+  min-width: 300px;
 }
 
 .aboutroot {
@@ -671,7 +680,7 @@ a {
 }
  
 .tabs label {
-  margin-top: auto;
+  margin-top: 0;
   order: 1;
   display: flex;
   justify-content: space-between;
@@ -689,10 +698,11 @@ a {
 }
  
 .tabs .tab {
+  margin-top: -200px;
   order: 9;
   flex-grow: 1;
   width: 100%;
-  height: 700px;
+  height: 600px;
   display: none;
   background: #303030;
   padding: 50px;
@@ -876,7 +886,7 @@ a {
 
 
 .how {
- 
+  
   display: flex;
   width: 100vw;
   max-height: 900px;
@@ -885,7 +895,7 @@ a {
 
 .accord {
   display: flex;
-  max-width:700px;
+  max-width: 72vw;
   margin: auto;
   /* padding:2em 0 2em 0; */
   /* margin: auto;
@@ -1222,6 +1232,13 @@ button[type="submit"]:hover {
   .Wrapper {
     padding: 3em;
     width: 90vw;
+  }
+
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
+
+    width: 400px;
+    height: 400px;
+
   }
 }
 
@@ -1681,6 +1698,24 @@ button[type="submit"]:hover {
     align-items: center;
   }
 
+  .aboutroot {
+    display: inline;
+    height: auto;
+    padding: 10px 0 10px;
+   div {
+    font-size: 18px;
+   }
+  }
+
+  .aboutimg {
+    max-width: 300px;
+    max-height: 200px;
+  }
+
+  .text {
+    padding: 10px 0 0 0;
+    font-size: 18px;
+  }
   
   .price {
 
@@ -2365,6 +2400,22 @@ v
 
 @media only screen and (max-width: 490px)   {
 
+  
+  .aboutwrapper 
+  {
+    margin: 0 0 0 0;
+   max-width: 99vw;
+   min-width: 99vw;
+  }
+  .aboutroot {
+    max-width: 99vw;
+    min-width: 99vw;
+    margin: 0 0 0 0;
+   
+  }
+
+
+
   .backdrop {
     padding: 30px;
   }
@@ -2388,31 +2439,41 @@ v
       grid-template-areas:
       "B"
       "A";
-      height: 100vh;
-      width: 99vw;
+      height: 90vh;
+      width: 99v;
       
   }
 
+  .aboutimg {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+
+  }
   .Button {
 
     margin-bottom: 200px;
 
     height: 70px;
-    width: 100%;
+    
     padding: 0px 0 0px 0;
   }
 
   .ButtonRoot {
+    max-width: 95%;
+    min-width: 95%;
     height: 80px;
     /* max-width: 100%; */
   }
 
   .conmed {
+    margin-left: auto;
     margin-top: 0;
     grid-column: auto;
     padding: 0 5px 0 5px;
     width: 90%;
-    max-height: 350px;
+    max-height: 400px;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
   }
@@ -2565,6 +2626,12 @@ v
     max-width: 100vw ;
   }
 
+  .tabs .tab {
+
+    height: 670px;
+
+  }
+
 
   .btext2, .btext {
     padding-left: 0%;
@@ -2596,6 +2663,26 @@ v
 
 
 @media only screen and (max-width: 456px)  {
+  .aboutimg {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+
+  }
+
+  .aboutwrapper 
+  {
+    margin: 0 0 0 0;
+   max-width: 99vw;
+   min-width: 99vw;
+  }
+  .aboutroot {
+    max-width: 99vw;
+    min-width: 99vw;
+    margin: 0 0 0 0;
+   
+  }
 
 
   .accordionTitle {
@@ -2780,6 +2867,24 @@ v
 
 @media only screen and (max-width: 430px)   {
 
+  .aboutimg {
+    max-width: 200px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+
+  }
+  
+  .conmed {
+    margin-left: 20px;
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    /* width: 90%; */
+    max-height: 300px;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+  }
 
   .Header {
     color: white; 
@@ -2812,7 +2917,11 @@ v
     
   }
 
-  .aboutroot div {
+  .aboutroot, .about, .aboutimg  {
+    border-radius: 15px;
+  }
+
+  .aboutroot  div {
     font-weight: 200;
     font-size: 18px;
   }
@@ -2855,7 +2964,7 @@ v
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
-
+    border-radius: 15px;
     width: 80vw;
     height: 300px;
     float: left;
@@ -2989,232 +3098,15 @@ v
 @media only screen and (max-width: 414px)   {
 
 
-  .Header {
-    color: white; 
-  font-size: 14px; 
-  font-family: Roboto; 
-  
-}
-  .HeaderWrapper {
-    min-width: 90vw;
-  
-  }
 
+  .footerwrapper{
 
-  .conmed {
-    margin-top: 0;
-    grid-column: auto;
-    padding: 0 5px 0 5px;
-    width: 90vw;
-    height: 400px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-  }
-
-  .Groups {
-    margin-top: 20px;
-    margin-bottom: 20px;
-
-  }
-
-
-  .Cross {
-    margin: 1em;
-    display: none;
-  }
-
-
-
-  .text {
-    padding: 0;
-    
-  }
-
-  .aboutroot div {
-    font-weight: 200;
-    font-size: 18px;
-  }
-
-  .Title, .footertitle {
-    font-size: 2em;
-    
-  }
-
-  .Title {
-    padding: 0px 0 0px 0;
-  }
-
-  .Subtitle {
-    font-size: 1.5em;
-    padding: 50px 0 50px 0;
-  }
-
-  .footerwrapper
-   p {
-    font-size: 18px;
-    width: auto;
-  }
-
-  .footerlinks {
-      font-size: 20px;
-      margin:100px 0 0 0;
-    
-  }
-
-  .Button {
-    text-align: right;
-    justify-content: end;
-    align-items: end;
-    align-self: flex-end;
-    float:right;
- 
-    padding: 0px 0 0px 0;
-  }
-
-  .ButtonRoot {
-    min-width: 85vw;
-    max-width: 85vw;
-
-    margin: 0;
-    padding: 0px 0 0px 0;
-  }
-
-  .Button2 {
-    min-width: 90vw;
-    max-width: 90vw;
-  }
-
-  .ButtonRoot2 {
-    min-width: 90vw;
-    max-width: 90vw;
-  }
-
-  .box,.blurbox,.blurnoise,.land,.pages,.store {
-
-    width: 80vw;
-    height: 300px;
-    float: left;
-    margin-bottom: 20px;
-  }
-
-  .priceroot {
-    h3 {
-      font-size: 20px;
-    }
-  }
-
-  .portfolio {
-    /* grid: 20px; */
-    display: flex;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #141615;
-
-    h2 {
-      top: -80px;
-      left: 0;
-      color: #82e287;
-      font-size: 48px;
-      font-weight: 300;
-      font-family: Roboto;
-      /* position: absolute; */
-    }
-  }
-  
-  .portwrapper {
-    color: #fff;
-    display: block;
-    width: 100vw;
-    min-height: 100vh;
-    row-gap: 3px;
-    column-gap: 1px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "A"
-    "B"
-    "C";
-    h2 {
-      font-size: 36px;
-      font-weight: 400;
-  
-    }
-    p {
-      padding: 10px 0 10px 0;
-      font-size: 24px;
-      font-weight: 300;
-      width: 70%;
-      margin-bottom: 20px;
-  
-    }
-    .workone,.worktwo,.workthree {
-      width: 100vw;
-      height: 500px;
-    }
-  
-  }
-
-  .price 
-  h1 {
-    font-size: 24px;
-  }
+    min-height: 600px;
   p {
-    width: auto;
-    font-size: 18px;
-  }
-
-  .tabs label {
-
-    text-align: center;
-    padding: 0.2rem 0.2rem;
-    width: 120px;
-
-    h3 {
-      font-size: 12px;
-    }
-
-  }
-
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    height: 900px;
-    max-width: 100vw ;
-  }
-
-
-  .btext2, .btext {
-    font-size: 20px;
-    padding-left: 0%;
-    margin: 0 10px 0 30px;
-  }
-
-  
-  .portfolio {
-
-    min-height: 200vh;
-  }
-  
-  .portwrapper {
-
-    min-height: 200vh;
-    h2 {
-      font-size: 24px;
-      font-weight: 400;
-  
-    }
-    p {
-
-      font-size: 18px;
-    }
-  
-  }
-
-
+   font-size: 26px;
+   width: auto;
+ }
 }
-
-
-@media only screen and (max-width: 390px) {
 
 
   .Header {
@@ -3229,6 +3121,7 @@ v
   }
 
   .Wrapper {
+    margin-top: -100px;
     display: grid;
       padding: 2rem;
       grid-template-columns: 1fr;
@@ -3236,31 +3129,34 @@ v
       grid-template-areas:
       "B"
       "A";
-      height: 100vh;
+      height: 80vh;
       width: 99vw;
       
   }
 
   .Button {
 
-    margin-bottom: 200px;
-
+    margin-bottom: 0px;
+    max-width: 100%;
+    min-width: 100%;
     height: 70px;
-    width: 100%;
     padding: 0px 0 0px 0;
   }
 
   .ButtonRoot {
     height: 80px;
+    max-width: 85vw;
+    min-width: 85vw;
     /* max-width: 100%; */
   }
 
   .conmed {
+    margin-left: 0;
     margin-top: 0;
     grid-column: auto;
     padding: 0 5px 0 5px;
-    width: 90%;
-    max-height: 350px;
+    /* width: 90%; */
+    max-height: 300px;
     /* grid-template-columns: 1fr;
     grid-template-rows: 1fr; */
   }
@@ -3273,7 +3169,8 @@ v
   } 
 
   .Groups {
-    margin-top: 20px;
+    margin-top: 0;
+    margin-right: 15px;
     margin-bottom: 20px;
 
   }
@@ -3311,12 +3208,14 @@ v
     padding: 20px 0 20px 0;
   }
 
-  .footerwrapper
+  .footerwrapper{
+
+    height: 60vh;
    p {
     font-size: 18px;
     width: auto;
   }
-
+  }
   .footerlinks {
       font-size: 20px;
       margin:100px 0 0 0;
@@ -3333,12 +3232,14 @@ v
   .ButtonRoot2 {
     min-width: 90vw;
     max-width: 90vw;
+    max-height: 80px;
+    margin-top: -320px;
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
 
     width: 80vw;
-    height: 300px;
+    height: 150px;
     float: left;
     margin-bottom: 20px;
   }
@@ -3400,17 +3301,19 @@ v
   
   }
 
-  .price 
+  .price {
   h1 {
     font-size: 24px;
   }
   p {
     width: auto;
-    font-size: 18px;
+    font-size: 16px;
   }
+}
 
   .tabs label {
-
+    margin-top: 0;
+    margin-bottom: auto;
     text-align: center;
     padding: 0.2rem 0.2rem;
     width: 110px;
@@ -3426,6 +3329,277 @@ v
     flex-wrap: wrap;
     height: 900px;
     max-width: 100vw ;
+  }
+
+  .tabs .tab{
+    height: 500px;
+    margin-bottom: auto;
+    margin-top: -350px;
+  }
+
+
+  .btext2, .btext {
+    font-size: 20px;
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
+  }
+
+  
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 24px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 18px;
+    }
+  
+  }
+
+
+}
+
+
+
+@media only screen and (max-width: 390px) {
+
+
+  .Header {
+    color: white; 
+  font-size: 14px; 
+  font-family: Roboto; 
+  
+}
+  .HeaderWrapper {
+    min-width: 90vw;
+  
+  }
+
+  .Wrapper {
+    margin-top: -100px;
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 80vh;
+      width: 99vw;
+      
+  }
+
+  .Button {
+
+    margin-bottom: 0px;
+    max-width: 100%;
+    min-width: 100%;
+    height: 70px;
+    width: 90%;
+    padding: 0px 0 0px 0;
+  }
+
+  .ButtonRoot {
+    height: 80px;
+    max-width: 82vw;
+    min-width: 82vw;
+    /* max-width: 100%; */
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    /* width: 90%; */
+    max-height: 300px;
+    /* grid-template-columns: 1fr;
+    grid-template-rows: 1fr; */
+  }
+
+  
+  .Mock {
+
+    width: 97%;
+    margin: 0 0 0 0;
+  } 
+
+  .Groups {
+    margin-top: 0;
+    margin-right: 15px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+
+  .text {
+    padding: 0;
+    
+  }
+
+  .aboutroot div {
+    font-weight: 200;
+    font-size: 18px;
+  }
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+    margin-top: -200px;
+  }
+
+  .Subtitle {
+    font-size: 1.2em;
+    padding: 20px 0 20px 0;
+  }
+
+  .footerwrapper{
+
+    height: 60vh;
+   p {
+    font-size: 18px;
+    width: auto;
+  }
+  }
+  .footerlinks {
+      font-size: 20px;
+      margin:100px 0 0 0;
+    
+  }
+
+ 
+
+  .Button2 {
+    min-width: 90vw;
+    max-width: 90vw;
+  }
+
+  .ButtonRoot2 {
+    min-width: 90vw;
+    max-width: 90vw;
+    max-height: 80px;
+    margin-top: -320px;
+  }
+
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
+
+    width: 80vw;
+    height: 150px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .priceroot {
+    margin-top: 10px;
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .portfolio {
+    /* grid: 20px; */
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
+  }
+  
+  .portwrapper {
+    color: #fff;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    row-gap: 3px;
+    column-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A"
+    "B"
+    "C";
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+      padding: 10px 0 10px 0;
+      font-size: 24px;
+      font-weight: 300;
+      width: 70%;
+      margin-bottom: 20px;
+  
+    }
+    .workone,.worktwo,.workthree {
+      width: 100vw;
+      height: 500px;
+    }
+  
+  }
+
+  .price {
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    width: auto;
+    font-size: 16px;
+  }
+}
+
+  .tabs label {
+    margin-top: 0;
+    margin-bottom: auto;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 110px;
+
+    h3 {
+      font-size: 12px;
+    }
+
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vw ;
+  }
+
+  .tabs .tab{
+    height: 500px;
+    margin-bottom: auto;
+    margin-top: -350px;
   }
 
 
