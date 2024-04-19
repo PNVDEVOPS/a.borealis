@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -65,7 +69,7 @@ a {
 
 .Container {
   width: 100vw;
-  height: 100vh;
+  height: 900px;
   left: 0px;
   top: 0px;
   position: relative;
@@ -81,7 +85,7 @@ a {
   /* justify-content: center;
   align-items: center; */
   width: 70vw;
-  min-height: 83vh;
+  max-height: 900px;
   top: 0;
   position: relative;
   display: flex;
@@ -92,7 +96,7 @@ a {
   /* justify-content: center; */
   /* align-items: center; */
   display: flex;
-  background-image:  url(./images/wrapper2.png);
+  background-image:  url(./images/wrapper.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -326,7 +330,7 @@ a {
 
 .Button2 {
   margin-top: 300px;
-  width: fit-content;
+  width: 500px;
   height: fit-content;
   float:left;
   display: flex;
@@ -334,6 +338,7 @@ a {
   /* bottom: 200px; */
   /* position: absolute; */
   /* left: 100px; */
+    
 
 }
 
@@ -342,7 +347,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* max-width: 26vw; */
+  width: 500px;
   height: 100px;
   /* position: absolute; */
   background: white;
@@ -397,6 +402,7 @@ a {
 }
 
 .btext2 {
+  padding-left: 10%;
   margin: 0 30px 0 30px;
   text-wrap: nowrap;
   color: black;
@@ -453,7 +459,7 @@ a {
   border-top-right-radius: 50px;
   display: flex;
   max-width: 100vw;
-  min-height: 100vh;
+  max-height: 900px;
   background-color: #141615;
 }
 
@@ -470,7 +476,7 @@ a {
   color: white;
   font-size: 20px;
   display: flex;
-  height: 100vh;
+  height: 900px;
 
 }
 
@@ -483,7 +489,7 @@ a {
   font-size: 20px;
   display: flex;
   max-width: 80vw;
-  height: 100vh;
+  height: 900px;
 
 }
 
@@ -527,7 +533,7 @@ a {
   grid: 20px;
   display: grid;
   /* max-width: 80vw; */
-  min-height: 100vh;
+  max-height: 900px;
   background-color: #141615;
 }
 
@@ -535,7 +541,7 @@ a {
   color: #fff;
   display: grid;
   max-width: 80vw;
-  height: 100vh;
+  height: 900px;
   row-gap: 3px;
   column-gap: 1px;
   grid-template-columns: 50% auto;
@@ -651,7 +657,7 @@ a {
 .baloon {
   font-weight: 300;
   margin-top: 50px ;
-  padding: 10px;
+  padding: 10px 10px 10px 10px;
    border: 1px solid #fff;
    border-radius: 50px;
 }
@@ -660,11 +666,12 @@ a {
 .tabs {
   display: flex;
   flex-wrap: wrap;
-  height: 650px;
+  height: 900px;
   max-width: 1400px ;
 }
  
 .tabs label {
+  margin-top: auto;
   order: 1;
   display: flex;
   justify-content: space-between;
@@ -678,15 +685,15 @@ a {
   border-top-right-radius: 20px;
   border-top-left-radius: 20px;
   background: #232323;
+  height: 100px;
 }
  
 .tabs .tab {
   order: 9;
   flex-grow: 1;
   width: 100%;
-  height: 100%;
+  height: 700px;
   display: none;
-  padding: 1rem;
   background: #303030;
   padding: 50px;
   border-bottom-left-radius: 30px;
@@ -733,7 +740,7 @@ a {
   font-size: 20px;
   background: #141615;
   box-sizing: border-box;
-  padding-top: 10vh;
+  padding-top: 100px;
   font-weight: 300;
   line-height: 1.5;
   max-width: 100vw;
@@ -742,7 +749,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 900px;
 
   h1 {
     font-size: 40px;
@@ -761,7 +768,7 @@ a {
 
   p {
     margin: 20px 0 20px 0;
-    max-width: 400px;
+    width: 400px;
     font-size: 24px;
     font-weight: 300;
     max-height: 40px;
@@ -772,6 +779,7 @@ a {
 .priceroot {
     padding-top: 100px;
     margin-top: -200px;
+    height: 900px;
   
   h2 {
     color: #82e287;
@@ -871,7 +879,7 @@ a {
  
   display: flex;
   width: 100vw;
-  min-height: 100vh;
+  max-height: 900px;
   background-color: #141615;
 }
 
@@ -886,7 +894,7 @@ a {
   color: white;
   font-size: 20px;
   /* display: flex; */
-  min-height: 100vh;
+  max-height: 900px;
   
 }
 
@@ -896,6 +904,7 @@ a {
 }
 
 .heading-primary {
+  width: full;
   color: #82e287;
   font-size: 48px;
   font-weight: 300;
@@ -946,6 +955,7 @@ a {
      font-weight:300; 
           padding:2em;
           display:block;
+          width: 100%;
           text-decoration:none;
           color:#fff;
           transition:background-color 0.5s ease-in-out;
@@ -1029,7 +1039,7 @@ a {
 
 .footer {
   max-width: 100vw;
-  min-height: 100vh;
+  max-height: 900px;
   background-color: #141615;
   padding-top: 300px;
   position: absolute;
@@ -1185,6 +1195,13 @@ button[type="submit"]:hover {
 
 @media only screen and (max-width: 1400px) {
 
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vh ;
+  }
+  
   .Wrapper {
     padding: 3em;
     width: 90vw;
@@ -1193,9 +1210,20 @@ button[type="submit"]:hover {
 
  @media only screen and (max-width: 1200px) {
 
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vh ;
+  }
+
+  .Cross {
+    display: none;
+  }
+
   .Wrapper {
     padding: 3em;
-    width: 90vw;
+    width: 900px;
   }
 
   /* .carousel 
@@ -1216,10 +1244,10 @@ button[type="submit"]:hover {
   .info {
     opacity: 1;
   }
-  /* .Mock {
+  .Mock {
     max-width: 450px;
     max-height: 300px;
-  }   */
+  }  
   .footerwrapper {
   padding: 40px 2em 40px 2em;
 
@@ -1257,6 +1285,14 @@ button[type="submit"]:hover {
 
 @media only screen and (max-width: 1024px) {
 
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vh ;
+  }
+
+
   .Header {
     color: white; 
   font-size: 1.3rem; 
@@ -1275,7 +1311,7 @@ button[type="submit"]:hover {
       grid-template-areas:
       "B"
       "A";
-      height: 90vh;
+      /* height: 90vh; */
       
   }
 
@@ -1301,8 +1337,9 @@ button[type="submit"]:hover {
 
 
   .Mock {
+
     width: 100%;
-    height: fit-content;
+    height: auto;
     margin: 0 0 0 0;
   } 
 
@@ -1319,8 +1356,8 @@ button[type="submit"]:hover {
     font-size: 4em;
   }
 
-  .Subtitle {
-    padding: 0 0 0 0;
+  .Subtitle,.Title {
+    padding: 20px 0 20px 0;
   }
 
   .footerlinks {
@@ -1342,6 +1379,10 @@ button[type="submit"]:hover {
     margin: 0;
   
     padding: 0px 0 0px 0;
+  }
+
+  .btext2 {
+    padding-left: 0;
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
@@ -1397,7 +1438,7 @@ button[type="submit"]:hover {
       grid-template-areas:
       "B"
       "A";
-      height: 90vh;
+      /* height: 90vh; */
       
   }
 
@@ -1442,8 +1483,8 @@ button[type="submit"]:hover {
     font-size: 3em;
   }
 
-  .Subtitle {
-    padding: 0 0 0 0;
+  .Subtitle, .Title {
+    padding: 20px 0 20px 0;
   }
 
   .footerlinks {
@@ -1522,7 +1563,7 @@ button[type="submit"]:hover {
       grid-template-areas:
       "B"
       "A";
-      height: 90vh;
+      /* height: 90vh; */
       
   }
 
@@ -1567,7 +1608,7 @@ button[type="submit"]:hover {
     font-size: 3em;
   }
 
-  .Title {
+  .Subtitle, .Title {
     padding: 20px 0 20px 0;
   }
 
@@ -1579,14 +1620,30 @@ button[type="submit"]:hover {
   }
 
   .Button {
-    text-align: right;
-    justify-content: end;
-    align-items: end;
-    align-self: flex-end;
-    float:right;
- 
+    max-width: 90vw;
+    min-width: 90vw;
     padding: 0px 0 0px 0;
   }
+  .ButtonRoot {
+
+    max-width: 90vw;
+    min-width: 90vw;
+
+  }
+
+  .Button2 {
+    margin-top: 590px;
+    min-width: 95vw;
+    max-width: 95vw;
+  }
+
+  .ButtonRoot2 {
+    max-width: 95vw;
+    min-width: 95vw;
+    margin-top: -180px;
+
+  }
+
 
   .ButtonRoot {
 
@@ -1596,9 +1653,8 @@ button[type="submit"]:hover {
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
-
-    width: 80vw;
-    height: 350px;
+    width: 90vw;
+    height: 300px;
     float: left;
     margin-bottom: 20px;
   }
@@ -1610,6 +1666,8 @@ button[type="submit"]:hover {
 
   
   .price {
+
+    
     h3 {
       font-size: 24px;
     }
@@ -1621,43 +1679,60 @@ button[type="submit"]:hover {
 
   }
 
+  .tabs .tab {
+    padding: 1rem;
+
+    
+  }
+
+  .price {
+    p {
+      width: 700px;
+    }
+  }
+
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 900px;
     max-width: 100vw ;
-  }
 
-  .Button2 {
-    margin-top: 500px;
-    max-width: 85vw;
-    min-width: 85vw;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
-  }
 
-  .btext2 {
-    padding-left: 20%;
-  }
-
-  .ButtonRoot2 {
-    min-width: 85vw;
-    
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
   }
 
 
+
+  .how {
+    height: 900px;
+  }
+
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
   
 }
 
 
 
 @media only screen and (max-width: 768px) {
+
+  
 
   .Header {
     color: white; 
@@ -1750,10 +1825,16 @@ v
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
 
-    width: 80vw;
-    height: 350px;
+    width: 90vw;
+    height: 300px;
     float: left;
     margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
   }
 
   .portfolio {
@@ -1762,13 +1843,23 @@ v
     width: 100vw;
     min-height: 100vh;
     background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
   }
   
   .portwrapper {
     color: #fff;
     display: block;
     width: 100vw;
-    height: 100%;
+    min-height: 100vh;
     row-gap: 3px;
     column-gap: 1px;
     grid-template-columns: 1fr;
@@ -1792,49 +1883,51 @@ v
     }
     .workone,.worktwo,.workthree {
       width: 100vw;
-      height: 50vh;
+      height: 500px;
     }
   
   }
 
   .tabs label {
 
-    padding: 1rem 1rem;
+    padding: 0.6rem 0.6rem;
 
   }
 
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    height: 80vh;
+    height: 900px;
     max-width: 100vw ;
   }
 
-  .Button2 {
-    margin-top: 500px;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
-  }
-
-  .ButtonRoot2 {
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
 
   .btext2 {
     padding-left: 20%;
   }
 
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
+
 
 }
-
 
 
 @media only screen and (max-width: 667px) {
@@ -1857,36 +1950,28 @@ v
       grid-template-areas:
       "B"
       "A";
-      height: 100vh;
+      height: 90vh;
       
   }
 
   .conmed {
-    display: flex;
     margin-top: 0;
     grid-column: auto;
     width: 100%;
-    height: fit-content;
+    height: 100%;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
+    grid-template-rows: 1fr;
   }
 
   .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
+
   }
 
 
   .Cross {
+    margin: 1em;
     display: none;
   }
 
@@ -1899,65 +1984,479 @@ v
 v
 
   .Title, .footertitle {
-    font-size: 3em;
+    font-size: 4em;
+    
   }
 
   .Title {
-    padding-bottom: 20px ;
+    padding: 20px 0 20px 0;
   }
 
   .Subtitle {
-    padding:  0 0 50px 0;
+    padding: 20px 0 20px 0;
   }
 
   .footerlinks {
-    font-size: 26px;
-    margin:0 auto;
-  }
+    font-size: 2em;
 
-  .footer {
-    margin: 0;
-    padding: 0;
+      font-size: 26px;
+      margin:0 0 0 0;
+    
   }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
-      font-size: 2em;
-    }
-    padding-top: 5em;
-  }
-
-  .footerlinks {
-    padding-left: auto;
-    margin-top: 5em;
-  }
-
 
   .Button {
     text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
     float:right;
-    max-width: 80vw;
-    min-width: 80vw;
+ 
     padding: 0px 0 0px 0;
   }
 
-  .btext {
+  .ButtonRoot {
+
+    margin: 0;
+  
+    padding: 0px 0 0px 0;
+  }
+
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
+
+    width: 90vw;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .portfolio {
+    /* grid: 20px; */
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
+  }
+  
+  .portwrapper {
+    color: #fff;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    row-gap: 3px;
+    column-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A"
+    "B"
+    "C";
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+      padding: 10px 0 10px 0;
+      font-size: 24px;
+      font-weight: 300;
+      width: 70%;
+      margin-bottom: 20px;
+  
+    }
+    .workone,.worktwo,.workthree {
+      width: 100vw;
+      height: 500px;
+    }
+  
+  }
+
+  .price p {
+    width: auto;
+  }
+
+  .tabs label {
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vw ;
+  }
+
+
+  .btext2 {
     padding-left: 20%;
   }
 
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
+
+
+}
+
+@media only screen and (max-width: 550px) {
+
+  .Header {
+    color: white; 
+  font-size: 1.3rem; 
+  font-family: Roboto; 
+}
+  .HeaderWrapper {
+    width: 60vw;
+  
+  }
+
+  .Wrapper {
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 900px;
+      width: 99vw;
+      
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 18px 0 18px;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Groups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+  .Mock {
+    width: 100%;
+    height: fit-content;
+    margin: 0 0 0 0;
+  } 
+v
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+  }
+
+  .Subtitle {
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .footerlinks {
+      font-size: 26px;
+      margin:0 0 0 0;
+    
+  }
+
+  .Button {
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
+    float:right;
+ 
+    padding: 0px 0 0px 0;
+  }
+
   .ButtonRoot {
-    max-width: 80vw;
-    min-width: 80vw;
+
+    margin: 0;
+  
+    padding: 0px 0 0px 0;
+  }
+
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
+
+    width: 85vw;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .portfolio {
+    /* grid: 20px; */
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
+  }
+  
+  .portwrapper {
+    color: #fff;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    row-gap: 3px;
+    column-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A"
+    "B"
+    "C";
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+      padding: 10px 0 10px 0;
+      font-size: 24px;
+      font-weight: 300;
+      width: 70%;
+      margin-bottom: 20px;
+  
+    }
+    .workone,.worktwo,.workthree {
+      width: 100vw;
+      height: 500px;
+    }
+  
+  }
+
+  .price p {
+    width: auto;
+    font-size: 18px;
+  }
+
+  .tabs label {
+
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 155px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vw ;
+  }
+
+
+  .btext2 {
+    padding-left: 10%;
+  }
+
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
+
+
+}
+
+
+@media only screen and (max-width: 490px)   {
+
+  .Header {
+    color: white; 
+  font-size: 16px; 
+  font-family: Roboto; 
+  
+}
+  .HeaderWrapper {
+    min-width: 90vw;
+  
+  }
+
+  .Wrapper {
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 900px;
+      width: 99vw;
+      
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Groups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+  .Mock {
+    width: 85vw;
+    height: fit-content;
+    margin: 0 0 0 0;
+  } 
+v
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+  }
+
+  .Subtitle {
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .footerlinks {
+      font-size: 26px;
+      margin:100px 0 0 0;
+    
+  }
+
+  .Button {
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
+    float:right;
+ 
+    padding: 0px 0 0px 0;
+  }
+
+  .ButtonRoot {
+    min-width: 85vw;
+    max-width: 85vw;
+
+    margin: 0;
+    padding: 0px 0 0px 0;
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
 
     width: 80vw;
-    height: 350px;
+    height: 300px;
     float: left;
     margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
   }
 
   .portfolio {
@@ -1966,13 +2465,23 @@ v
     width: 100vw;
     min-height: 100vh;
     background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
   }
   
   .portwrapper {
     color: #fff;
     display: block;
     width: 100vw;
-    height: 100%;
+    min-height: 100vh;
     row-gap: 3px;
     column-gap: 1px;
     grid-template-columns: 1fr;
@@ -1996,17 +2505,28 @@ v
     }
     .workone,.worktwo,.workthree {
       width: 100vw;
-      height: 50vh;
+      height: 500px;
     }
   
   }
 
+  .price 
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    width: auto;
+    font-size: 18px;
+  }
+
   .tabs label {
 
-    padding: 0.5rem 0.5rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 140px;
 
-    h3{
-      font-size: 20px;
+    h3 {
+      font-size: 14px;
     }
 
   }
@@ -2014,754 +2534,156 @@ v
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    height: 85vh;
+    height: 900px;
     max-width: 100vw ;
   }
 
 
-  .Button2 {
-    margin-top: 500px;
- max-width: 85vw;
-    min-width: 85vw;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
+  .btext2, .btext {
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
   }
 
-  .ButtonRoot2 {
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
+
+
+}
+
+
+@media only screen and (max-width: 456px)  {
+
+
+  .accordionTitle {
+    font-size: 20px;
+  }
+
+  .Header {
+    color: white; 
+  font-size: 16px; 
+  font-family: Roboto; 
+  
+}
+  .HeaderWrapper {
+    min-width: 90vw;
+  
+  }
+
+  .Wrapper {
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 900px;
+      width: 99vw;
+      
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Groups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+  .Mock {
+    width: 85vw;
+    height: fit-content;
+    margin: 0 0 0 0;
+  } 
+v
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+  }
+
+  .Subtitle {
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .footerlinks {
+      font-size: 26px;
+      margin:100px 0 0 0;
+    
+  }
+
+  .Button {
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
+    float:right;
+ 
+    padding: 0px 0 0px 0;
+  }
+
+  .ButtonRoot {
+    min-width: 85vw;
     max-width: 85vw;
-    min-width: 85vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
 
-  .btext2 {
-    padding-left: 20%;
-  }
-
-.footerlogo {
-  margin-top: 500px;
-}
-
-}
-
-@media only screen and (max-width: 550px) {
-  .footerlogo {
-    margin-top: 500px;
-  }
-  
-
-  .Header {
-    
-    color: white; 
-  font-size: 14px; 
-  font-family: Roboto; 
-}
-  .HeaderWrapper {
-    max-width: 80vw;
-    min-width: 350px;
-    height: 50px;
-    top: 1%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(20px);
-  }
-
-  .Wrapper {
-    display: grid;
-      padding: 2rem;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-      "B"
-      "A";
-      height: 90vh;
-      
-  }
-
-  .conmed {
-    display: flex;
-    margin-top: 0;
-    grid-column: auto;
-    width: 100%;
-    height: fit-content;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
-  }
-
-  .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
-    margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
-  }
-
-
-  .Cross {
-    display: none;
-  }
-
-
-  .Mock {
-    max-width: 75vw;
-    min-width: 75vw;
-    height: fit-content;
-    margin: 0 0 0 0;
-  } 
-
-
-  .Title, .footertitle {
-    font-size: 3em;
-  }
-
-  .Title {
-    padding-bottom: 50px ;
-  }
-
-  .Subtitle {
-    padding:  0 0 50px 0;
-    font-size: 24px;
-  }
-
-  .footerlinks {
-    font-size: 26px;
-  }
-
-  .footer {
-    padding: 0;
-  }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
-      font-size: 20px;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      margin: 0;
-    }
-  }
-
-  .footerlinks {
-    padding-left: auto;
-
-    margin-top: 5em;
-  }
-
-
-  .Button {
-    text-align: right;
-    float:right;
-    max-width: 75vw;
-    min-width: 75vw;
-    padding: 0px 0 0px 0;
-  }
-
-  .btext {
-    padding-left: 2%;
-
-    font-size: 20px;
-  }
-
-  .ButtonRoot {
-    max-width: 75vw;
-    min-width: 75vw;
-  }
-
-  .box,.blurbox,.blurnoise,.land,.pages,.store {
-
-    width: 70vw;
-    height: 350px;
-    float: left;
-    margin-bottom: 20px;
-  }
-
-  .portfolio {
-    /* grid: 20px; */
-    display: flex;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #141615;
-  }
-  
-  .portwrapper {
-    color: #fff;
-    display: block;
-    width: 100vw;
-    height: 100%;
-    row-gap: 3px;
-    column-gap: 1px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "A"
-    "B"
-    "C";
-    h2 {
-      font-size: 36px;
-      font-weight: 400;
-  
-    }
-    p {
-      padding: 10px 0 10px 0;
-      font-size: 18px;
-      font-weight: 300;
-      width: 70%;
-      margin-bottom: 20px;
-  
-    }
-    .workone,.worktwo,.workthree {
-      width: 100vw;
-      height: 50vh;
-    }
-  
-  }
-
-  .baloons {
-    align-items: center;
-    display: flex;
-    margin-top: 0;
-  }
-
-  .baloon {
-    margin-top: 0;
-  }
-
-  .tabs label {
-
-    width: 30vw;
-    
-    padding: 0.5rem 0.5rem;
-
-    h3{
-      font-size: 14px;
-    }
-
-  }
-
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    max-width: 100vw ;
-  }
-
-
-  .Button2 {
-    margin-top: 500px;
- max-width: 80vw;
-    min-width: 80vw;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
-  }
-
-  .ButtonRoot2 {
-    max-width: 80vw;
-    min-width: 80vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
-
-
-  .btext2 {
-    padding-left: 10%;
-
-    font-size: 20px;
-  }
-
-  .price {
-    color: white;
-    font-size: 20px;
-    background: #141615;
-    box-sizing: border-box;
-    padding-top: 10vh;
-    font-weight: 300;
-    line-height: 1.5;
-    max-width: 100vw;
-    margin: auto;
-    font-size: 110%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  
-    h1 {
-      font-size: 24px;
-      font-weight: 400;
-      width: fit-content;
-    }
-  
-  
-  
-    h3 {
-      width: 200px;
-      font-size: 18px;
-      font-weight: 300;
-      height: 60px;
-    }
-  
-    p {
-      margin: 20px 0 20px 0;
-      max-width: 400px;
-      font-size: 18px;
-      font-weight: 300;
-      max-height: 40px;
-    }
-  
-  } 
-
-
-}
-
-
-@media only screen and (max-width: 490px) {
-
-
-  .footerlogo {
-    margin-top: 500px;
-  }
-  
-  .Header {
-    
-    color: white; 
-  font-size: 14px; 
-  font-family: Roboto; 
-}
-  .HeaderWrapper {
-    max-width: 80vw;
-    min-width: 350px;
-    height: 50px;
-    top: 1%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(20px);
-  }
-
-  .Wrapper {
-    display: grid;
-      padding: 2rem;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-      "B"
-      "A";
-      height: 90vh;
-      
-  }
-
-  .conmed {
-    display: flex;
-    margin-top: 0;
-    grid-column: auto;
-    width: 100%;
-    height: fit-content;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
-  }
-
-  .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
-    margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
-  }
-
-
-  .Cross {
-    display: none;
-  }
-
-
-  .Mock {
-    max-width: 75vw;
-    min-width: 75vw;
-    height: fit-content;
-    margin: 0 0 0 0;
-  } 
-
-
-  .Title, .footertitle {
-    font-size: 3em;
-  }
-
-  .Title {
-    padding-bottom: 50px ;
-  }
-
-  .Subtitle {
-    padding:  0 0 50px 0;
-    font-size: 24px;
-  }
-
-  .footerlinks {
-    font-size: 26px;
-  }
-
-  .footer {
-    padding: 0;
-  }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
-      font-size: 20px;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      margin: 0;
-    }
-  }
-
-  .footerlinks {
-    padding-left: auto;
-
-    margin-top: 5em;
-  }
-
-
-  .Button {
-    text-align: right;
-    float:right;
-    max-width: 75vw;
-    min-width: 75vw;
-    padding: 0px 0 0px 0;
-  }
-
-  .btext {
-    padding-left: 2%;
-
-    font-size: 20px;
-  }
-
-  .ButtonRoot {
-    max-width: 75vw;
-    min-width: 75vw;
-  }
-
-  .box,.blurbox,.blurnoise,.land,.pages,.store {
-
-    width: 70vw;
-    height: 350px;
-    float: left;
-    margin-bottom: 20px;
-  }
-
-  .portfolio {
-    /* grid: 20px; */
-    display: flex;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #141615;
-  }
-  
-  .portwrapper {
-    color: #fff;
-    display: block;
-    width: 100vw;
-    height: 100%;
-    row-gap: 3px;
-    column-gap: 1px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "A"
-    "B"
-    "C";
-    h2 {
-      font-size: 36px;
-      font-weight: 400;
-  
-    }
-    p {
-      padding: 10px 0 10px 0;
-      font-size: 18px;
-      font-weight: 300;
-      width: 70%;
-      margin-bottom: 20px;
-  
-    }
-    .workone,.worktwo,.workthree {
-      width: 100vw;
-      height: 50vh;
-    }
-  
-  }
-
-  .baloons {
-    align-items: center;
-    display: flex;
-    margin-top: 0;
-  }
-
-  .baloon {
-    margin-top: 0;
-  }
-
-  .tabs label {
-
-    width: 30vw;
-    
-    padding: 0.5rem 0.5rem;
-
-    h3{
-      font-size: 14px;
-    }
-
-  }
-
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    max-width: 100vw ;
-  }
-
-
-  .Button2 {
-    margin-top: 500px;
- max-width: 80vw;
-    min-width: 80vw;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
-  }
-
-  .ButtonRoot2 {
-    max-width: 80vw;
-    min-width: 80vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
-
-
-  .btext2 {
-    padding-left: 10%;
-
-    font-size: 20px;
-  }
-
-  .price {
-    color: white;
-    font-size: 20px;
-    background: #141615;
-    box-sizing: border-box;
-    padding-top: 10vh;
-    font-weight: 300;
-    line-height: 1.5;
-    max-width: 100vw;
-    margin: auto;
-    font-size: 110%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  
-    h1 {
-      font-size: 24px;
-      font-weight: 400;
-      width: fit-content;
-    }
-  
-  
-  
-    h3 {
-      width: 200px;
-      font-size: 18px;
-      font-weight: 300;
-      height: 60px;
-    }
-  
-    p {
-      margin: 20px 0 20px 0;
-      max-width: 400px;
-      font-size: 18px;
-      font-weight: 300;
-      max-height: 40px;
-    }
-  
-  } 
-
-
-}
-
-
-@media only screen and (max-width: 430px) {
-
-
-
-  .Header {
-    
-    color: white; 
-  font-size: 14px; 
-  font-family: Roboto; 
-}
-  .HeaderWrapper {
-    max-width: 80vw;
-    min-width: 350px;
-    height: 50px;
-    top: 1%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(20px);
-  }
-
-  .Wrapper {
-    display: grid;
-      padding: 2rem;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-      "B"
-      "A";
-      height: 90vh;
-      
-  }
-
-  .conmed {
-    display: flex;
-    margin-top: 0;
-    grid-column: auto;
-    width: 100%;
-    height: fit-content;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
-  }
-
-  .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
-    margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
-  }
-
-
-  .Cross {
-    display: none;
-  }
-
-
-  .Mock {
-    max-width: 75vw;
-    min-width: 75vw;
-    height: fit-content;
-    margin: 0 0 0 0;
-  } 
-
-
-  .Title, .footertitle {
-    font-size: 3em;
-  }
-
-  .Title {
-    padding-bottom: 50px ;
-  }
-
-  .Subtitle {
-    padding:  0 0 50px 0;
-    font-size: 24px;
-  }
-
-  .footerlinks {
-    font-size: 26px;
     margin: 0;
-  }
-
-  .footerlogo {
-    margin-top: 500px;
-    position: absolute;
-  }
-  
-
-  .footer {
-    padding: 0;
-  }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
-      font-size: 20px;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      margin: 0;
-    }
-  }
-
-  .footerlinks {
-    padding-left: auto;
-    margin-right: -140px;
-    margin-top: 5em;
-  }
-
-
-  .Button {
-    text-align: right;
-    float:right;
-    max-width: 75vw;
-    min-width: 75vw;
     padding: 0px 0 0px 0;
-  }
-
-  .btext {
-    padding-left: 2%;
-
-    font-size: 20px;
-  }
-
-  .ButtonRoot {
-    max-width: 75vw;
-    min-width: 75vw;
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
 
-    width: 70vw;
-    height: 350px;
+    width: 80vw;
+    height: 300px;
     float: left;
     margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
   }
 
   .portfolio {
@@ -2770,13 +2692,23 @@ v
     width: 100vw;
     min-height: 100vh;
     background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
   }
   
   .portwrapper {
     color: #fff;
     display: block;
     width: 100vw;
-    height: 100%;
+    min-height: 100vh;
     row-gap: 3px;
     column-gap: 1px;
     grid-template-columns: 1fr;
@@ -2792,7 +2724,7 @@ v
     }
     p {
       padding: 10px 0 10px 0;
-      font-size: 18px;
+      font-size: 24px;
       font-weight: 300;
       width: 70%;
       margin-bottom: 20px;
@@ -2800,28 +2732,27 @@ v
     }
     .workone,.worktwo,.workthree {
       width: 100vw;
-      height: 50vh;
+      height: 500px;
     }
   
   }
 
-  .baloons {
-    align-items: center;
-    display: flex;
-    margin-top: 0;
+  .price 
+  h1 {
+    font-size: 24px;
   }
-
-  .baloon {
-    margin-top: 0;
+  p {
+    width: auto;
+    font-size: 18px;
   }
 
   .tabs label {
 
-    width: 30vw;
-    
-    padding: 0.5rem 0.5rem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 140px;
 
-    h3{
+    h3 {
       font-size: 14px;
     }
 
@@ -2830,80 +2761,534 @@ v
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 900px;
     max-width: 100vw ;
   }
 
 
-  .Button2 {
-    margin-top: 500px;
- max-width: 80vw;
-    min-width: 80vw;
-    width: fit-content;
+  .btext2, .btext {
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
+  }
+
+
+  
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 24px;
+    }
+  
+  }
+
+}
+
+
+
+@media only screen and (max-width: 430px)   {
+
+
+  .Header {
+    color: white; 
+  font-size: 16px; 
+  font-family: Roboto; 
+  
+}
+  .HeaderWrapper {
+    min-width: 90vw;
+  
+  }
+
+  .Wrapper {
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 900px;
+      width: 99vw;
+      
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    width: 100%;
+    height: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Groups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+  .Mock {
+    width: 85vw;
     height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
+    margin: 0 0 0 0;
+  } 
+
+  .text {
+    padding: 0;
+    
+  }
+
+  .aboutroot div {
+    font-weight: 200;
+    font-size: 18px;
+  }
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+  }
+
+  .Subtitle {
+    font-size: 1.5em;
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 26px;
+    width: auto;
+  }
+
+  .footerlinks {
+      font-size: 26px;
+      margin:100px 0 0 0;
+    
+  }
+
+  .Button {
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
+    float:right;
+ 
+    padding: 0px 0 0px 0;
+  }
+
+  .ButtonRoot {
+    min-width: 85vw;
+    max-width: 85vw;
+
+    margin: 0;
+    padding: 0px 0 0px 0;
+  }
+
+  .Button2 {
+    min-width: 90vw;
+    max-width: 90vw;
   }
 
   .ButtonRoot2 {
-    max-width: 80vw;
-    min-width: 80vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
+    min-width: 90vw;
+    max-width: 90vw;
   }
 
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
 
-  .btext2 {
-    padding-left: 10%;
-
-    font-size: 20px;
+    width: 80vw;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
   }
 
-  .price {
-    color: white;
-    font-size: 20px;
-    background: #141615;
-    box-sizing: border-box;
-    padding-top: 10vh;
-    font-weight: 300;
-    line-height: 1.5;
-    max-width: 100vw;
-    margin: auto;
-    font-size: 110%;
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .portfolio {
+    /* grid: 20px; */
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
     min-height: 100vh;
+    background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
+  }
   
-    h1 {
+  .portwrapper {
+    color: #fff;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    row-gap: 3px;
+    column-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A"
+    "B"
+    "C";
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+      padding: 10px 0 10px 0;
+      font-size: 24px;
+      font-weight: 300;
+      width: 70%;
+      margin-bottom: 20px;
+  
+    }
+    .workone,.worktwo,.workthree {
+      width: 100vw;
+      height: 500px;
+    }
+  
+  }
+
+  .price 
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    width: auto;
+    font-size: 18px;
+  }
+
+  .tabs label {
+
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 130px;
+
+    h3 {
+      font-size: 14px;
+    }
+
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vw ;
+  }
+
+
+  .btext2, .btext {
+    font-size: 24px;
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
+  }
+
+
+  
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
       font-size: 24px;
       font-weight: 400;
-      width: fit-content;
+  
     }
-  
-  
-  
-    h3 {
-      width: 200px;
-      font-size: 18px;
-      font-weight: 300;
-      height: 60px;
-    }
-  
     p {
-      margin: 20px 0 20px 0;
-      max-width: 400px;
+      
       font-size: 18px;
-      font-weight: 300;
-      max-height: 40px;
     }
   
+  }
+
+  .baloons {
+    height: 30px;
+    width: 100vw;
+    margin-top: 20px;
+    font-size: 16px;
+    gap: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 414px)   {
+
+
+  .Header {
+    color: white; 
+  font-size: 14px; 
+  font-family: Roboto; 
+  
+}
+  .HeaderWrapper {
+    min-width: 90vw;
+  
+  }
+
+  .Wrapper {
+    display: grid;
+      padding: 2rem;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas:
+      "B"
+      "A";
+      height: 900px;
+      width: 99vw;
+      
+  }
+
+  .conmed {
+    margin-top: 0;
+    grid-column: auto;
+    padding: 0 5px 0 5px;
+    width: 90vw;
+    height: 400px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  .Groups {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+
+  .Cross {
+    margin: 1em;
+    display: none;
+  }
+
+
+  .Mock {
+    width: 85vw;
+    height: fit-content;
+    margin: 0 0 0 0;
   } 
+
+  .text {
+    padding: 0;
+    
+  }
+
+  .aboutroot div {
+    font-weight: 200;
+    font-size: 18px;
+  }
+
+  .Title, .footertitle {
+    font-size: 2em;
+    
+  }
+
+  .Title {
+    padding: 0px 0 0px 0;
+  }
+
+  .Subtitle {
+    font-size: 1.5em;
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 18px;
+    width: auto;
+  }
+
+  .footerlinks {
+      font-size: 20px;
+      margin:100px 0 0 0;
+    
+  }
+
+  .Button {
+    text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
+    float:right;
+ 
+    padding: 0px 0 0px 0;
+  }
+
+  .ButtonRoot {
+    min-width: 85vw;
+    max-width: 85vw;
+
+    margin: 0;
+    padding: 0px 0 0px 0;
+  }
+
+  .Button2 {
+    min-width: 90vw;
+    max-width: 90vw;
+  }
+
+  .ButtonRoot2 {
+    min-width: 90vw;
+    max-width: 90vw;
+  }
+
+  .box,.blurbox,.blurnoise,.land,.pages,.store {
+
+    width: 80vw;
+    height: 300px;
+    float: left;
+    margin-bottom: 20px;
+  }
+
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
+  .portfolio {
+    /* grid: 20px; */
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
+  }
+  
+  .portwrapper {
+    color: #fff;
+    display: block;
+    width: 100vw;
+    min-height: 100vh;
+    row-gap: 3px;
+    column-gap: 1px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas:
+    "A"
+    "B"
+    "C";
+    h2 {
+      font-size: 36px;
+      font-weight: 400;
+  
+    }
+    p {
+      padding: 10px 0 10px 0;
+      font-size: 24px;
+      font-weight: 300;
+      width: 70%;
+      margin-bottom: 20px;
+  
+    }
+    .workone,.worktwo,.workthree {
+      width: 100vw;
+      height: 500px;
+    }
+  
+  }
+
+  .price 
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    width: auto;
+    font-size: 18px;
+  }
+
+  .tabs label {
+
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 120px;
+
+    h3 {
+      font-size: 12px;
+    }
+
+  }
+
+  .tabs {
+    display: flex;
+    flex-wrap: wrap;
+    height: 900px;
+    max-width: 100vw ;
+  }
+
+
+  .btext2, .btext {
+    font-size: 20px;
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
+  }
+
+  
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
+      font-size: 24px;
+      font-weight: 400;
+  
+    }
+    p {
+
+      font-size: 18px;
+    }
+  
+  }
 
 
 }
@@ -2912,34 +3297,15 @@ v
 @media only screen and (max-width: 390px) {
 
 
-  
-  
-  .baloons {
-    align-items: center;
-    display: flex;
-    margin-top: 0;
-    text-wrap: nowrap;
-  }
-
-  .baloon {
-    margin-top: 0;
-  }
-
   .Header {
-    
     color: white; 
   font-size: 14px; 
   font-family: Roboto; 
+  
 }
   .HeaderWrapper {
-    max-width: 80vw;
-    min-width: 350px;
-    height: 50px;
-    top: 1%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(20px);
+    min-width: 90vw;
+  
   }
 
   .Wrapper {
@@ -2950,422 +3316,141 @@ v
       grid-template-areas:
       "B"
       "A";
-      height: 90vh;
+      height: 900px;
+      width: 99vw;
       
   }
 
   .conmed {
-    display: flex;
     margin-top: 0;
     grid-column: auto;
-    width: 100%;
-    height: fit-content;
+    padding: 0 5px 0 5px;
+    width: 90vw;
+    height: 400px;
     grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
+    grid-template-rows: 1fr;
   }
 
   .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
+
   }
 
 
   .Cross {
+    margin: 1em;
     display: none;
   }
 
 
   .Mock {
-    max-width: 75vw;
-    min-width: 75vw;
+    width: 85vw;
     height: fit-content;
     margin: 0 0 0 0;
   } 
-v
+
+  .text {
+    padding: 0;
+    
+  }
+
+  .aboutroot div {
+    font-weight: 200;
+    font-size: 18px;
+  }
 
   .Title, .footertitle {
-    font-size: 3em;
+    font-size: 2em;
+    
   }
 
   .Title {
-    padding-bottom: 50px ;
+    padding: 0px 0 0px 0;
   }
 
   .Subtitle {
-    padding:  0 0 50px 0;
-    font-size: 24px;
+    font-size: 1.5em;
+    padding: 50px 0 50px 0;
+  }
+
+  .footerwrapper
+   p {
+    font-size: 18px;
     width: auto;
   }
 
   .footerlinks {
-    font-size: 26px;
-    margin: 0;
-  }
-
-  .footer {
-    padding: 0;
-  }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
       font-size: 20px;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      margin: 0;
-    }
-  
-
+      margin:100px 0 0 0;
+    
   }
-
-  .footerlinks {
-    padding-left: auto;
-    margin-right: 10px;
-    margin-top: 5em;
-  }
-
 
   .Button {
     text-align: right;
+    justify-content: end;
+    align-items: end;
+    align-self: flex-end;
     float:right;
-    max-width: 75vw;
-    min-width: 75vw;
+ 
     padding: 0px 0 0px 0;
   }
 
-  .btext {
-    padding-left: 0%;
-    margin-right: 0;
-    font-size: 20px;
-  }
-
   .ButtonRoot {
-    max-width: 75vw;
-    min-width: 75vw;
+    min-width: 85vw;
+    max-width: 85vw;
+
+    margin: 0;
+    padding: 0px 0 0px 0;
   }
-
-  .box,.blurbox,.blurnoise,.land,.pages,.store {
-
-    width: 70vw;
-    height: 350px;
-    float: left;
-    margin-bottom: 20px;
-  }
-
-  .portfolio {
-    /* grid: 20px; */
-    display: flex;
-    width: 100vw;
-    min-height: 100vh;
-    background-color: #141615;
-  }
-  
-  .portwrapper {
-    color: #fff;
-    display: block;
-    width: 100vw;
-    height: 100%;
-    row-gap: 3px;
-    column-gap: 1px;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas:
-    "A"
-    "B"
-    "C";
-    h2 {
-      font-size: 36px;
-      font-weight: 400;
-  
-    }
-    p {
-      padding: 10px 0 10px 0;
-      font-size: 18px;
-      font-weight: 300;
-      width: 70%;
-      margin-bottom: 20px;
-
-  
-    }
-    .workone,.worktwo,.workthree {
-      width: 100vw;
-      height: 50vh;
-    }
-  
-  }
-
-  .tabs label {
-
-    width: 31vw;
-    
-    padding: 0.3rem 0.3srem;
-
-    h3{
-      font-size: 14px;
-    }
-
-  }
-
-  .tabs {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
-    max-width: 100vw ;
-  }
-
 
   .Button2 {
-    margin-top: 500px;
- max-width: 80vw;
-    min-width: 80vw;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
+    min-width: 90vw;
+    max-width: 90vw;
   }
 
   .ButtonRoot2 {
-    max-width: 80vw;
-    min-width: 80vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
-
-
-  .btext2 {
-    padding-left: 2%;
-    margin-right: 0;
-    font-size: 20px;
-  }
-
-  .price {
-    color: white;
-    font-size: 20px;
-    background: #141615;
-    box-sizing: border-box;
-    padding-top: 10vh;
-    font-weight: 300;
-    line-height: 1.5;
-    max-width: 100vw;
-    margin: auto;
-    font-size: 110%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  
-    h1 {
-      font-size: 24px;
-      font-weight: 400;
-      width: fit-content;
-    }
-  
-  
-  
-    h3 {
-      width: 200px;
-      font-size: 18px;
-      font-weight: 300;
-      height: 60px;
-    }
-  
-    p {
-      margin: 20px 0 20px 0;
-      max-width: 400px;
-      font-size: 18px;
-      font-weight: 300;
-      max-height: 40px;
-    }
-  
-  } 
-
-
-}
-
-
-
-@media only screen and (max-width: 414px) {
-
-
-  .footerlogo {
-    margin-top: 500px;
-  }
-  
-  
-  .baloons {
-    align-items: center;
-    display: flex;
-    margin-top: 0;
-    text-wrap: nowrap;
-  }
-
-  .baloon {
-    margin-top: 0;
-  }
-
-  .Header {
-    
-    color: white; 
-  font-size: 14px; 
-  font-family: Roboto; 
-}
-  .HeaderWrapper {
-    max-width: 80vw;
-    min-width: 350px;
-    height: 50px;
-    top: 1%;
-    position: absolute;
-    background: rgba(0, 0, 0, 0.6);
-    border-radius: 15px;
-    backdrop-filter: blur(20px);
-  }
-
-  .Wrapper {
-    display: grid;
-      padding: 2rem;
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr;
-      grid-template-areas:
-      "B"
-      "A";
-      height: 90vh;
-      
-  }
-
-  .conmed {
-    display: flex;
-    margin-top: 0;
-    grid-column: auto;
-    width: 100%;
-    height: fit-content;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    direction: rtl;
-  }
-
-  .Groups {
-    margin-bottom: auto;
-    width: 50px;
-    height: 200px;
-    display: block;
-    flex: auto;
-    margin-bottom: 20px;
-    display: none;
-    div {
-      margin-bottom: 20px;
-    }
-  }
-
-
-  .Cross {
-    display: none;
-  }
-
-
-  .Mock {
-    max-width: 75vw;
-    min-width: 75vw;
-    height: fit-content;
-    margin: 0 0 0 0;
-  } 
-v
-
-  .Title, .footertitle {
-    font-size: 3em;
-  }
-
-  .Title {
-    padding-bottom: 50px ;
-  }
-
-  .Subtitle {
-    padding:  0 0 50px 0;
-    font-size: 24px;
-  }
-
-  .footerlinks {
-    font-size: 26px;
-  }
-
-  .footer {
-    padding: 0;
-  }
-
-  .footerwrapper {
-    display: block;
-    height: 100vh;
-    p {
-      font-size: 20px;
-      padding-top: 2em;
-      padding-bottom: 2em;
-      margin: 0;
-    }
-  
-
-  }
-
-  .footerlinks {
-    padding-left: auto;
-    margin-right: 10px;
-    margin-top: 5em;
-  }
-
-
-  .Button {
-    text-align: right;
-    float:right;
-    max-width: 75vw;
-    min-width: 75vw;
-    padding: 0px 0 0px 0;
-  }
-
-  .btext {
-    padding-left: 0%;
-    margin-right: 0;
-    font-size: 20px;
-  }
-
-  .ButtonRoot {
-    max-width: 75vw;
-    min-width: 75vw;
+    min-width: 90vw;
+    max-width: 90vw;
   }
 
   .box,.blurbox,.blurnoise,.land,.pages,.store {
 
-    width: 300px;
+    width: 80vw;
     height: 300px;
     float: left;
     margin-bottom: 20px;
   }
 
+  .priceroot {
+    h3 {
+      font-size: 20px;
+    }
+  }
+
   .portfolio {
     /* grid: 20px; */
     display: flex;
     width: 100vw;
     min-height: 100vh;
     background-color: #141615;
+
+    h2 {
+      top: -80px;
+      left: 0;
+      color: #82e287;
+      font-size: 48px;
+      font-weight: 300;
+      font-family: Roboto;
+      /* position: absolute; */
+    }
   }
   
   .portwrapper {
     color: #fff;
     display: block;
     width: 100vw;
-    height: 100%;
+    min-height: 100vh;
     row-gap: 3px;
     column-gap: 1px;
     grid-template-columns: 1fr;
@@ -3381,28 +3466,36 @@ v
     }
     p {
       padding: 10px 0 10px 0;
-      font-size: 18px;
+      font-size: 24px;
       font-weight: 300;
       width: 70%;
       margin-bottom: 20px;
-
   
     }
     .workone,.worktwo,.workthree {
       width: 100vw;
-      height: 50vh;
+      height: 500px;
     }
   
   }
 
+  .price 
+  h1 {
+    font-size: 24px;
+  }
+  p {
+    width: auto;
+    font-size: 18px;
+  }
+
   .tabs label {
 
-    width: 31vw;
-    
-    padding: 0.3rem 0.3srem;
+    text-align: center;
+    padding: 0.2rem 0.2rem;
+    width: 120px;
 
-    h3{
-      font-size: 14px;
+    h3 {
+      font-size: 12px;
     }
 
   }
@@ -3410,78 +3503,37 @@ v
   .tabs {
     display: flex;
     flex-wrap: wrap;
-    height: 100vh;
+    height: 900px;
     max-width: 100vw ;
   }
 
 
-  .Button2 {
-    margin-top: 500px;
- max-width: 80vw;
-    min-width: 80vw;
-    width: fit-content;
-    height: fit-content;
-    float: flex-end;
-    display: flex;
-    cursor: pointer;
-    margin-left: auto;
-  }
-
-  .ButtonRoot2 {
-    max-width: 80vw;
-    min-width: 80vw;
-    width: auto;
-    margin-left: auto;
-    float:right;
-    display: flex;
-       float: flex-end;
-  }
-
-
-  .btext2 {
-    padding-left: 2%;
-    margin-right: 0;
+  .btext2, .btext {
     font-size: 20px;
+    padding-left: 0%;
+    margin: 0 10px 0 30px;
   }
 
-  .price {
-    color: white;
-    font-size: 20px;
-    background: #141615;
-    box-sizing: border-box;
-    padding-top: 10vh;
-    font-weight: 300;
-    line-height: 1.5;
-    max-width: 100vw;
-    margin: auto;
-    font-size: 110%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
   
-    h1 {
+  .portfolio {
+
+    min-height: 200vh;
+  }
+  
+  .portwrapper {
+
+    min-height: 200vh;
+    h2 {
       font-size: 24px;
       font-weight: 400;
-      width: fit-content;
+  
     }
-  
-  
-  
-    h3 {
-      width: 200px;
-      font-size: 18px;
-      font-weight: 300;
-      height: 60px;
-    }
-  
     p {
-      margin: 20px 0 20px 0;
-      max-width: 400px;
+
       font-size: 18px;
-      font-weight: 300;
-      max-height: 40px;
     }
   
-  } 
+  }
+
+
 }
